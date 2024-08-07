@@ -7,7 +7,7 @@
 
 ## Backend Setup
 1. Clone the repository
-```bash
+``` bash
 git clone <repository-url>
 cd <repository-name>
 ```
