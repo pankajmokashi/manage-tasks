@@ -8,13 +8,13 @@
 ## Backend Setup
 1. Clone the repository
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/pankajmokashi/manage-tasks.git
+cd manage-tasks
 ```
 
 2. Navigate to the backend directory
 ```bash
-cd backend
+cd task-management-backend
 ```
 
 3. Install dependencies
@@ -40,7 +40,7 @@ npm start
 ## Frontend Setup
 1. Navigate to the frontend directory
 ```bash
-cd ../frontend
+cd ../task-management
 ```
 
 2. Install dependencies
@@ -65,7 +65,7 @@ Authentication
 
 Tasks
 - Get all tasks: GET /tasks
-    Response: [ { "id": "task_id", "title": "task_title", "description": "task_description" }, ... ]
+  - Response: [ { "id": "task_id", "title": "task_title", "description": "task_description" }, ... ]
     
 - Get task by ID: GET /tasks/:id
   - Response: { "id": "task_id", "title": "task_title", "description": "task_description" }
